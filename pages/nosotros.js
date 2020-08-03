@@ -1,9 +1,14 @@
 import React from 'react';
+import Layout from '../components/layout/Layout';
 
 const Nosotros = () => {
-    return ( 
-        <h1>Sobre nosotros</h1>
-     );
+  return (
+    <Layout>
+      <div>
+        <h1>Nosotros</h1>
+      </div>
+    </Layout>
+  );
 }
- 
+
 export default Nosotros;
