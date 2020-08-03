@@ -1,5 +1,6 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import React from 'react';
+import Layout from '../components/layout/Layout';
+
 import styled from '@emotion/styled';
 
 const Heading = styled.h1`
@@ -8,8 +9,10 @@ const Heading = styled.h1`
 
 export default function Home() {
   return (
-    <div>
-      <Heading>Inicio</Heading>
-    </div>
-  )
+    <Layout>
+      <div>
+        <Heading>Inicio</Heading>
+      </div>
+    </Layout>
+  );
 }
