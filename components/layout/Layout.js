@@ -13,6 +13,8 @@ const Layout = (props) => {
             --gris2: #6f6f6f;
             --gris3: #e1e1e1;
             --naranja: #da552f;
+            --naranja2: rgb(219, 101, 28);
+            --verde: rgb(94, 174, 73);
           }
 
           html {

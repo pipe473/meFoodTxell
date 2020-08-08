@@ -16,7 +16,7 @@ const ContenedorHeader = styled.div`
 `;
 
 const Logo = styled.p`
-  color: var(--naranja);
+  color: var(--verde);
   font-size: 4rem;
   line-height: 0;
   font-weight: 700;
@@ -35,7 +35,7 @@ const Header = () => {
       <ContenedorHeader>
         <div>
           <Link href="/">
-            <Logo>P</Logo>
+            <Logo>meFoodTxell</Logo>
           </Link>
 
           <Buscar />
@@ -43,7 +43,7 @@ const Header = () => {
           <Navegacion />
         </div>
         <div>
-          <p>Hola: Felipe</p>
+          <p>Hola: Meritxell</p>
           <button type="button">Cerrar Sesión</button>
           <Link href="/">Login</Link>
           <Link href="/">Register</Link>
